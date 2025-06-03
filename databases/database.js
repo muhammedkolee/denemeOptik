@@ -2,7 +2,7 @@ import * as SQLite from 'expo-sqlite';
 import { Alert } from 'react-native';
 
 // Veritabanını aç
-const db = SQLite.openDatabaseSync('datas.db');
+const db = SQLite.openDatabaseAsync('datas.db');
 
 
 // Başlangıçta tabloyu oluştur (sadece bir kere oluşturulur)
