@@ -25,8 +25,8 @@ const AnaSayfa = ({ navigation }) => {
 
   // Component mount olduğunda cevap anahtarlarını yükle
   useEffect(() => {
-    initDatabase();
-    loadAnswerKeys();
+    // initDatabase();
+    // loadAnswerKeys();
   }, []);
 
   // Cevap anahtarları değiştiğinde ekranı yenile (AnswerKey ekranından dönüldüğünde)
